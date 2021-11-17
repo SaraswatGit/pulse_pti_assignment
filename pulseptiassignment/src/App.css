@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.toppart {
+  height: 15vh;
+  width: 100vw;
+  background-color: #8cb3d9;
+  font-size: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bottompart {
+  display: flex;
+  flex-direction: row;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #204161;
+  width: 15vw;
+  height: 85vh;
+}
+.routearea {
+}
+.headings {
+  color: white;
+  font-weight: 500;
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+.headings:hover {
+  color: yellow;
+  font-weight: 500;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+.subheadings {
+  text-decoration: none;
+  color: white;
+
+  font-size: 1.7vh;
+}
+.subheadings:hover,
+.activesubheadings {
+  text-decoration: none;
+  font-size: 1.7vh;
+
+  color: yellow;
+}
